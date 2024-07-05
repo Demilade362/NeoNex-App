@@ -49,7 +49,7 @@ export default function Home() {
         <div className="grid grid-cols-3 justify-center items-center gap-3">
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow p-10">
             <div className="flex flex-col items-center pb-10">
-              <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://neonex-dc7af.web.app/ceo.jpg" alt="Bonnie image" />
+              <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://avatars.githubusercontent.com/u/68753229?v=4" alt="Bonnie image" />
               <h5 className="mb-1 text-xl font-medium text-gray-900">Oluwademilade Abatan</h5>
               <span className="text-sm text-gray-500 dark:text-gray-400">CEO, NeoNex</span>
             </div>
@@ -57,13 +57,13 @@ export default function Home() {
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow p-10">
             <div className="flex flex-col items-center pb-10">
               <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
-              <h5 className="mb-1 text-xl font-medium text-gray-900">Mr P</h5>
+              <h5 className="mb-1 text-xl font-medium text-gray-900">Emmaunel</h5>
               <span className="text-sm text-gray-500 dark:text-gray-400">COO, NeoNex</span>
             </div>
           </div>
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow p-10">
             <div className="flex flex-col items-center pb-10">
-              <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://avatars.githubusercontent.com/u/89690781?v=4" alt="Bonnie image" />
+              <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://avatars.githubusercontent.com/u/109282365?v=4" alt="Bonnie image" />
               <h5 className="mb-1 text-xl font-medium text-gray-900">Adeniji Olajide</h5>
               <span className="text-sm text-gray-500 dark:text-gray-400">CTO, NeoNex</span>
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
           <form class="max-w-md mx-auto">
             <div class="mb-5">
               <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
-              <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required />
+              <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@email.com" required />
             </div>
             <div class="mb-5">
               <label for="Wallet" class="block mb-2 text-sm font-medium text-gray-900">Your Wallet Address</label>
