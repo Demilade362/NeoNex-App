@@ -12,7 +12,7 @@ export default function Home() {
             Let's Make Internet Accessible with Crypto
           </h3>
           <p className=" mt-3 mb-10 text-gray-400">
-           Making Internet Connection accessible to underserved communities
+            Making Internet Connection accessible to underserved communities
           </p>
           <Link href={"/"} className="text-white bg-green-400 p-4 rounded hover:bg-green-500">
             Participate in Presale
@@ -36,7 +36,7 @@ export default function Home() {
         </h3>
         <div className="lg:mx-40">
           <p className="text-center p-10">
-          Our token aims to bridge the digital divide by supporting global initiatives that provide internet access and digital education to underserved communities. By enhancing connectivity, we empower individuals and foster equal opportunities for growth and learning
+            Our token aims to bridge the digital divide by supporting global initiatives that provide internet access and digital education to underserved communities. By enhancing connectivity, we empower individuals and foster equal opportunities for growth and learning
           </p>
         </div>
       </div>
