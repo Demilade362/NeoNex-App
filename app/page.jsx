@@ -9,10 +9,10 @@ export default function Home() {
       <div className="container flex flex-col-reverse lg:flex-row justify-between gap-3 items-center p-5">
         <div className="flex-col text-center md:p-5 md:text-start">
           <h3 className="text-5xl text-pretty bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-500">
-            Let's Build Crypto Commerce with Nex Crypto
+            Let's Make Internet Accessible with Crypto
           </h3>
-          <p className="my-10 text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam illo natus dolore repudiandae dignissimos.
+          <p className=" mt-3 mb-10 text-gray-400">
+           Making Internet Connection accessible to underserved communities
           </p>
           <Link href={"/"} className="text-white bg-green-400 p-4 rounded hover:bg-green-500">
             Participate in Presale
@@ -36,9 +36,7 @@ export default function Home() {
         </h3>
         <div className="lg:mx-40">
           <p className="text-center p-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sed nostrum aspernatur enim corrupti rem animi totam tempora doloremque in!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor modi perferendis quam deserunt illum facilis incidunt, consectetur ipsa ducimus! Doloribus tempore, error numquam et temporibus suscipit at earum commodi, culpa quisquam assumenda nulla maiores molestias hic sit voluptatem. Unde, delectus!
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corporis quisquam error beatae et quaerat accusantium repellat dolorem veniam. Recusandae alias vero repellendus autem non. Ducimus impedit eveniet maxime sequi?
+          Our token aims to bridge the digital divide by supporting global initiatives that provide internet access and digital education to underserved communities. By enhancing connectivity, we empower individuals and foster equal opportunities for growth and learning
           </p>
         </div>
       </div>
@@ -46,24 +44,24 @@ export default function Home() {
         <h3 className="text-4xl text-center mb-10 text-pretty bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-500">
           People Behind NeoNex
         </h3>
-        <div className="grid grid-cols-3 justify-center items-center gap-3">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-center items-center gap-3">
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow p-10">
             <div className="flex flex-col items-center pb-10">
-              <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://avatars.githubusercontent.com/u/68753229?v=4" alt="Bonnie image" />
+              <img className="w-24 h-24 mb-3 rounded-full" src="https://avatars.githubusercontent.com/u/68753229?v=4" alt="CEO" />
               <h5 className="mb-1 text-xl font-medium text-gray-900">Oluwademilade Abatan</h5>
               <span className="text-sm text-gray-500 dark:text-gray-400">CEO, NeoNex</span>
             </div>
           </div>
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow p-10">
             <div className="flex flex-col items-center pb-10">
-              <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image" />
-              <h5 className="mb-1 text-xl font-medium text-gray-900">Emmaunel</h5>
+              <img className="w-24 h-24 mb-3 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="COO" />
+              <h5 className="mb-1 text-xl font-medium text-gray-900">Emmaunel Salau</h5>
               <span className="text-sm text-gray-500 dark:text-gray-400">COO, NeoNex</span>
             </div>
           </div>
-          <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow p-10">
+          <div className="w-full max-w-sm md:max-w-lg bg-white border border-gray-200 rounded-lg shadow p-10">
             <div className="flex flex-col items-center pb-10">
-              <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="https://avatars.githubusercontent.com/u/109282365?v=4" alt="Bonnie image" />
+              <img className="w-24 h-24 mb-3 rounded-full" src="https://avatars.githubusercontent.com/u/109282365?v=4" alt="CTO" />
               <h5 className="mb-1 text-xl font-medium text-gray-900">Adeniji Olajide</h5>
               <span className="text-sm text-gray-500 dark:text-gray-400">CTO, NeoNex</span>
             </div>
@@ -71,44 +69,21 @@ export default function Home() {
         </div>
       </div>
       <section className="my-20">
-        <div className="container mx-auto flex flex-col lg:flex-row justify-center gap-6 ">
-          <div className="grow">
-            <h1 className="text-2xl mb-7 text-center">
+        <div className="container mx-auto flex  lg:flex-row justify-center gap-6">
+          <form>
+            <h1 className="text-3xl text-center mb-10 text-pretty bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-500">
               Participate in Airdrop
             </h1>
-            <form>
-              <div class="mb-5">
-                <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
-                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@email.com" required />
-              </div>
-              <div class="mb-5">
-                <label for="Wallet" class="block mb-2 text-sm font-medium text-gray-900">Your Wallet Address</label>
-                <input type="test" id="Wallet" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required />
-              </div>
-              <button type="submit" class="text-white bg-green-400 hover:bg-green-500 w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Submit Wallet Address</button>
-            </form>
-          </div>
-          <div className="grow">
-            <h1 className="text-center text-3xl mb-9">Tokenomics</h1>
-            <div id="fullWidthTabContent">
-              <div class="p-4 bg-white rounded-lg md:p-8">
-                <dl class="flex lg:flex-row mx-auto gap-20 md:flex-col justify-center">
-                  <div class="flex flex-col items-center justify-center">
-                    <dt class="mb-2 text-3xl font-extrabold">6</dt>
-                    <dd class="text-gray-500 dark:text-gray-400">Team</dd>
-                  </div>
-                  <div class="flex flex-col items-center justify-center">
-                    <dt class="mb-2 text-3xl font-extrabold">1B</dt>
-                    <dd class="text-gray-500 dark:text-gray-400">Total Token</dd>
-                  </div>
-                  <div class="flex flex-col items-center justify-center">
-                    <dt class="mb-2 text-3xl font-extrabold">0.0006$</dt>
-                    <dd class="text-gray-500 dark:text-gray-400">Token Price</dd>
-                  </div>
-                </dl>
-              </div>
+            <div class="mb-5">
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
+              <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@email.com" required />
             </div>
-          </div>
+            <div class="mb-5">
+              <label for="Wallet" class="block mb-2 text-sm font-medium text-gray-900">Your Wallet Address</label>
+              <input type="test" id="Wallet" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required />
+            </div>
+            <button type="submit" class="text-white bg-green-400 hover:bg-green-500 w-full focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Submit Wallet Address</button>
+          </form>
         </div>
       </section>
     </>

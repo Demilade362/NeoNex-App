@@ -8,7 +8,7 @@ export default function page() {
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between">
           <div className="flex-col lg:text-center lg:p-10">
             <h1 className="text-4xl mb-5 text-pretty bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-500">About NeoNex</h1>
-            <p className="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque repellendus rem cumque, aliquid vero et beatae natus modi accusantium sint optio quidem eos praesentium expedita ex esse asperiores autem unde?</p>
+            <p className="text-gray-400">Our token aims to bridge the digital divide by supporting global initiatives that provide internet access and digital education to underserved communities. By enhancing connectivity, we empower individuals and foster equal opportunities for growth and learning</p>
           </div>
           <div className="flex-col">
             <Image
