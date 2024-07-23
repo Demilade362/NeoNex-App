@@ -86,6 +86,13 @@ export default function Home() {
           </form>
         </div>
       </section>
+      <section className="my-20">
+        <div className="container mx-auto">
+          <h1 className="text-3xl text-center text-pretty bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-yellow-500">
+            NeoNex RoadMap
+          </h1>
+        </div>
+      </section>
     </>
   );
 }
